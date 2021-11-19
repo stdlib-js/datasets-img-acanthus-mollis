@@ -20,7 +20,7 @@ limitations under the License.
 
 # Acanthus mollis
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > [_Acanthus mollis_][@blossfeldt:1928a].
 
@@ -160,7 +160,7 @@ Digital image courtesy of the Getty's [Open Content Program][getty-open-content]
 
 ## See Also
 
--   [`@stdlib/datasets/img-allium-oreophilum`][@stdlib/datasets/img-allium-oreophilum]: allium oreophilum (pink lily leek).
+-   <span class="package-name">[`@stdlib/datasets/img-allium-oreophilum`][@stdlib/datasets/img-allium-oreophilum]</span><span class="delimiter">: </span><span class="description">allium oreophilum (pink lily leek).</span>
 
 </section>
 
@@ -206,8 +206,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-img-acanthus-mollis/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-img-acanthus-mollis?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-img-acanthus-mollis.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/datasets-img-acanthus-mollis/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
