@@ -61,6 +61,11 @@ Image of Karl Blossfeldt's gelatin silver print [_Acanthus mollis_][@blossfeldt:
 ## Usage
 
 ```javascript
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-img-acanthus-mollis/tags). For example,
+
+```javascript
 import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.1.1-deno/mod.js';
 ```
 
@@ -86,7 +91,7 @@ var img = image();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.1.1-deno/mod.js';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@deno/mod.js';
 
 var img = image();
 console.log( img );
