@@ -54,14 +54,31 @@ Image of Karl Blossfeldt's gelatin silver print [_Acanthus mollis_][@blossfeldt:
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/datasets-img-acanthus-mollis
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+-   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@deno/mod.js';
+var image = require( '@stdlib/datasets-img-acanthus-mollis' );
 ```
 
 #### image()
@@ -86,7 +103,7 @@ var img = image();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@deno/mod.js';
+var image = require( '@stdlib/datasets-img-acanthus-mollis' );
 
 var img = image();
 console.log( img );
@@ -96,7 +113,58 @@ console.log( img );
 
 <!-- /.examples -->
 
+* * *
 
+<section class="cli">
+
+## CLI
+
+<section class="installation">
+
+## Installation
+
+To use as a general utility, install the CLI package globally
+
+```bash
+npm install -g @stdlib/datasets-img-acanthus-mollis-cli
+```
+
+</section>
+
+<!-- CLI usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```text
+Usage: img-acanthus-mollis [options]
+
+Options:
+
+  -h,    --help                Print this message.
+  -V,    --version             Print the package version.
+```
+
+</section>
+
+<!-- /.usage -->
+
+<section class="examples">
+
+### Examples
+
+```bash
+$ img-acanthus-mollis | <image_viewer>
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.cli -->
 
 <!-- <license> -->
 
@@ -129,7 +197,7 @@ Digital image courtesy of the Getty's [Open Content Program][getty-open-content]
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -154,8 +222,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-img-acanthus-mollis.svg
 [npm-url]: https://npmjs.org/package/@stdlib/datasets-img-acanthus-mollis
 
-[test-image]: https://github.com/stdlib-js/datasets-img-acanthus-mollis/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/datasets-img-acanthus-mollis/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/datasets-img-acanthus-mollis/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/datasets-img-acanthus-mollis/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-img-acanthus-mollis/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-img-acanthus-mollis?branch=main
@@ -196,11 +264,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [@blossfeldt:1928a]: http://www.getty.edu/art/collection/objects/35443/karl-blossfeldt-acanthus-mollis-german-1928/
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor/tree/deno
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
 <!-- <related-links> -->
 
-[@stdlib/datasets/img-allium-oreophilum]: https://github.com/stdlib-js/datasets-img-allium-oreophilum/tree/deno
+[@stdlib/datasets/img-allium-oreophilum]: https://github.com/stdlib-js/datasets-img-allium-oreophilum
 
 <!-- </related-links> -->
 
