@@ -63,7 +63,7 @@ Image of Karl Blossfeldt's gelatin silver print [_Acanthus mollis_][@blossfeldt:
 To use in Observable,
 
 ```javascript
-image = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@umd/browser.js' )
+image = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.2.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -75,7 +75,7 @@ var image = require( 'path/to/vendor/umd/datasets-img-acanthus-mollis/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.2.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -113,7 +113,7 @@ var img = image();
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.2.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
