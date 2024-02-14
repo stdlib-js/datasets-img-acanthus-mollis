@@ -63,6 +63,11 @@ Image of Karl Blossfeldt's gelatin silver print [_Acanthus mollis_][@blossfeldt:
 To use in Observable,
 
 ```javascript
+image = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-img-acanthus-mollis/tags). For example,
+
+```javascript
 image = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.2.0-umd/browser.js' )
 ```
 
@@ -75,7 +80,7 @@ var image = require( 'path/to/vendor/umd/datasets-img-acanthus-mollis/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -113,7 +118,7 @@ var img = image();
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.2.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
