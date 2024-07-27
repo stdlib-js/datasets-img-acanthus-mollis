@@ -61,6 +61,11 @@ Image of Karl Blossfeldt's gelatin silver print [_Acanthus mollis_][@blossfeldt:
 ## Usage
 
 ```javascript
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-img-acanthus-mollis/tags). For example,
+
+```javascript
 import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.2.2-esm/index.mjs';
 ```
 
@@ -91,7 +96,7 @@ var img = image();
 <body>
 <script type="module">
 
-import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@v0.2.2-esm/index.mjs';
+import image from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-img-acanthus-mollis@esm/index.mjs';
 
 var img = image();
 console.log( img );
